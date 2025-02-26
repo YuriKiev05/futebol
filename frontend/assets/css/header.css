@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    background-image: url('/assets/img/campo-backgorund.png');
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+    
+}
+
+div#logo, div#links{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+   
+}
+
+div#logo > h1{
+  
+    
+    
+}
+
+div#links{
+    margin-right: 40px;
+}
+
+header>div>a{
+    font-size: 25px;
+    color: white;
+    width: 150px;
+    
+    
+}
+
+
+
+header>div#logo>img{
+    margin-left: 30px;
+    width: 55px;
+    height: 55px;
+}
+
+header>div#links>img{
+    width: 55px;
+    height: 55px;
+}
+

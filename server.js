@@ -32,12 +32,14 @@ app.use(routes)
 
 //views
 app.set('views', path.resolve(__dirname , 'src', 'views'))
-app.set('view engine', 'ejs')   
+app.set('view engine', 'ejs')
+
 
 
 
 //static
 app.use(express.static(path.resolve(__dirname, 'public')))
+app.use(express.static(path.resolve(__dirname, 'frontend')))
 
 
 app.listen(3000, () =>{
