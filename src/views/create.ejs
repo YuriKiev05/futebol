@@ -1,0 +1,31 @@
+<%- include('./includes/head') %>
+<%- include('./includes/header') %>
+
+<main>
+    <h1>Criar partida</h1>
+    <div class="form">
+       <form  action="/create/partida" method="post">
+        <label for="Nome">Título</label>
+        <input type="text" name="nome" id="Nome" required>
+
+        <label for="Local">Local da partida</label>
+        <input type="text" name="local" id="Local" required>
+
+        
+        <label for="Data">data da partida</label>
+        <input type="date" name="data" id="Data" required>
+
+        <label for="Hora">data da partida</label>
+        <input type="time" name="hora" id="Hora" required>
+
+        <label for="img">Selecione uma imagem para a capa</label>
+        <input type="file" name="img-capa" id="img">
+        
+        <button type="submit">Criar partida</button>
+       </form>
+    </div>
+
+    
+</main>
+
+<%- include('./includes/footer') %>

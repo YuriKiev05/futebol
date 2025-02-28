@@ -44,6 +44,7 @@ app.use(express.static(path.resolve(__dirname, 'frontend')))
 
 app.listen(3000, () =>{
     console.log('acessar http://localhost:3000/')
+    console.log('acessar http://localhost:3000/create')
 })
     
 
